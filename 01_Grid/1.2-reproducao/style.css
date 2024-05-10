@@ -1,0 +1,50 @@
+.wrapper{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    height: 530px;
+    width: 100%;
+}
+
+.box{
+    color: rgb(254, 254, 254);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #cf442b;
+}
+
+.b{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #fdb345;
+}
+
+.c{
+    grid-column: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #e7780f;
+}
+
+.d{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    background-color: #dcc61c;
+}
+
+
+/* ou também pode ser usado o grid-area: 1 / 2 / 2 /3 ;

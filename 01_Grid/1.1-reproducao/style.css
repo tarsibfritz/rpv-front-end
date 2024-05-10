@@ -1,0 +1,61 @@
+.wrapper{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    height: 530px;
+    width: 100%;
+}
+
+.box{
+    color: rgb(254, 254, 254);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #ec9805;
+}
+
+.b{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #0595ef;
+}
+
+.c{
+    grid-column: 2;
+    grid-column-end: 4;
+    grid-row: 2;
+    background-color: #ec0597;
+}
+
+.d{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #53b80f;
+}
+
+.e{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: #7e09e4;
+}
+
+.f{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    background-color: #d10b2c;
+}
+
+
+/* também pode ser usado o grid-area: 1 / 2 / 2 / 3 ;
